@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel = "icon" href = "images/user.png" 
+    type = "image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    
+    <style>
+      
+      
+      html{
+        background-color: white;
+      
+      }
+      body{
+          background-color: white;
+      }
+      
+      
+      .Login-content form .user-details {
+  display: block;
+  position: relative;
+  left: 25%;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .button {
+  height: 45px;
+  position: relative;
+  left: 30%;
+  top: 15px;
+}
+.navbar .menu li a {
+  display: block;
+  color: #222;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .logo a {
+  color: #222;
+  font-size: 35px;
+  font-weight: 600;
+}
+@media (max-width: 500px) {
+  .Login-content form .user-details {
+  left: 0%;
+
+}
+}
+
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="max-width">
+        <div class="logo"><a href="index.html">Evetari<span>/></span></a></div>
+        <ul class="menu">
+            <li><a href="index.html" class="menu-btn">Home</a></li>
+           
+            <li><a href="courses.html" class="menu-btn">Courses</a></li>
+            <li><a href="#services" class="menu-btn">Categories</a></li>
+            <li><a href="#" class="menu-btn">My Learning</a></li>
+            <li><a href="#contact" class="menu-btn">Contact</a></li>
+            <li><a href="Shopping-Cart.html" class="menu-btn"><i class="fas fa-heart"></i></a></li>
+            <li><a href="Shopping-Cart.html" class="menu-btn"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="index.html" class="menu-btn"><i class="fas fa-sign-in-alt"></i></a></li>
+          
+
+
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+  <section class="Login">
+    <div class="max-width">
+<div class="Login-content">
+    <div class="title">Login</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" required>
+          </div>
+          <div class="Agree">
+            <input type="checkbox" id="check"/>
+            <label for="check"> Kam lexuar dhe jam pajtuar me <a href="">Kushtet dhe Privatësine</a></label>
+        </div><br>
+        <label for="check"> Don't have an Account ? <a href="Register.html">Register here.</a></label>
+        </div>
+        <div class="button">
+          <input type="submit" value="Login">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+<script src="script.js"></script>
+<footer class="footer">
+  <div class="footer-container">
+      <div class="row">
+          <div class="footer-col">
+          <h4>Academy</h4>
+          <ul class="ul-footer">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">About us</a></li>
+          </ul>
+      </div>
+      <div class="footer-col">
+          <h4>Academy</h4>
+          <ul class="ul-footer">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">About us</a></li>
+          </ul>
+      </div>
+      <div class="footer-col">
+          <h4>Get Help</h4>
+          <ul class="ul-footer">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">About us</a></li>
+          </ul>
+      </div>
+   
+      <div class="footer-col">
+          <h4>Follow Us</h4>
+          <ul class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+
+          </ul>
+      </div>
+  </div>
+  <p>&copy; Copyright 2023 Evetari Academy.</p>
+  </div>
+</footer> 
+
+</body>
+</html> 

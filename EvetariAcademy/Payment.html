@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel = "icon" href = "images/payment-method.png" 
+    type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+   
+    <style>
+      body{
+          background-color: white;
+      }
+      .navbar .menu li a {
+  display: block;
+  color: #222;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .logo a {
+  color: #222;
+  font-size: 35px;
+  font-weight: 600;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="max-width">
+        <div class="logo"><a href="index.html">Evetari<span>/></span></a></div>
+        <ul class="menu">
+            <li><a href="index.html" class="menu-btn">Home</a></li>
+           
+            <li><a href="courses.html" class="menu-btn">Courses</a></li>
+            <li><a href="#services" class="menu-btn">Categories</a></li>
+            <li><a href="#" class="menu-btn">My Learning</a></li>
+            <li><a href="#contact" class="menu-btn">Contact</a></li>
+            <li><a href="Shopping-Cart.html" class="menu-btn"><i class="fas fa-heart"></i></a></li>
+            <li><a href="Shopping-Cart.html" class="menu-btn"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="Login.html" class="menu-btn"><i class="far fa-user"></i></a></li>
+          
+
+
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+    <section class="Login">
+        <div class="max-width">
+    <div class="Login-content">
+        <div class="title">Billing Address</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+                <div class="icon-container">
+                    <h3>Aceppted Cards</h3>
+                     <i class="fab fa-cc-visa" style="color:navy;"></i>
+                    <i class="fab fa-cc-mastercard" style="color:red;"></i></div>
+              
+              
+              <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Enter your name" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Username</span>
+                <input type="text" placeholder="Enter your username" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="text" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input type="text" placeholder="Enter your number" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Adress</span>
+                <input type="text" placeholder="Enter your address" required>
+              </div>
+              <div class="input-box">
+                <span class="details">zip</span>
+                <input type="text" placeholder="zip" required>
+              </div>
+         
+            <div class="input-box">
+                <span class="details">Name on Card</span>
+                <input type="text" placeholder="nameoncard" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Credit Card Number</span>
+                <input type="text" placeholder="1111-1111-2223-2233" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Exp Month</span>
+                <input type="text" placeholder="September" required>
+            </div>
+      </div>
+            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+            <div class="button">
+                <input type="submit" value="Continue to checkout" class="btn">
+              
+            </div>
+         
+          </form>
+        </div>
+      </div>
+    </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html> 
